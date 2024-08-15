@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  background-color: white;
+  max-width: 90vw;
+/* remove  prop min-height */
+  min-height: 90vh;
+  margin-inline: auto;
+  padding: 2rem;
+  border-radius: 16px;
+
+}
+.lift-simulation-container {
+  border: 2px solid black;
+  min-height: 90vh;
+  /* remove  prop min-height */
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: hidden;
+}
+
+.a-floor {
+  border-top: 2px solid #000;
+  display: flex;
+  height: 100px;
+  /* //make height better here */
+}
+.controls-container {
+  width: 10%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.up,
+.down {
+  padding: 0.5rem;
+  width: 50px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.up{
+    background-color: #00A501;
+}
+.down {
+  background-color: #F9BA00;
+}
+.lift-space {
+  width: 84%;
+  background-color: rgb(166, 36, 227);
+}
+.lift{
+    height: 80%;
+    width: 100px;
+    background-color: blue;
+}
+.floor-number {
+  width: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #00A501; */
+}
+
+
+/* div.lift-simulation-container div{
+    background-color: white;
+} */
