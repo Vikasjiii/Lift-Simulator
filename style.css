@@ -27,13 +27,14 @@ header h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.user-input-container > div {
+.user-input-container div {
   margin-bottom: 1rem;
 }
 .user-input-container input {
   width: 100%;
   font-family: "Roboto", sans-serif;
   height: 1.5rem;
+  margin-top: 0.5rem;
 }
 .generate-button-container {
   display: flex;

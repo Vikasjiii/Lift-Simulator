@@ -17,19 +17,21 @@
     </header>
 
     <div class="user-input-container">
-      <div class="floor-input-container">
-        <label for="floor">Number of floors:</label>
-        <br />
-        <input type="number" name="floor" id="floor" />
-      </div>
-      <div class="lift-input-container">
-        <label for="lift">Number of lifts:</label>
-        <br />
-        <input type="number" name="lift" id="lift" />
-      </div>
-      <div class="generate-button-container">
-        <button class="generate-button">Generate</button>
-      </div>
+      <form action="/lift-simulation.html">
+        <div class="floor-input-container">
+          <label for="floor">Number of floors:</label>
+          <br />
+          <input type="number" name="floor" id="floor" required />
+        </div>
+        <div class="lift-input-container">
+          <label for="lift">Number of lifts:</label>
+          <br />
+          <input type="number" name="lift" id="lift" required />
+        </div>
+        <div class="generate-button-container">
+          <button class="generate-button">Generate</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>
